@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/page_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="3/100"
+            android:textColor="#77ff0000" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/english_text1"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text1" />
+
+        <TextView
+            android:id="@+id/japanese_text1"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text1"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/english_text2"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text2" />
+
+        <TextView
+            android:id="@+id/japanese_text2"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text2"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/english_text3"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text3" />
+
+        <TextView
+            android:id="@+id/japanese_text3"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text3"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/english_text4"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text4" />
+
+        <TextView
+            android:id="@+id/japanese_text4"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text4"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/english_text5"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text5" />
+
+        <TextView
+            android:id="@+id/japanese_text5"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text5"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/english_text6"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text6" />
+
+        <TextView
+            android:id="@+id/japanese_text6"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text6"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/english_text7"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text7" />
+
+        <TextView
+            android:id="@+id/japanese_text7"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text7"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/english_text8"
+            style="@style/EnglishText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="english text8" />
+
+        <TextView
+            android:id="@+id/japanese_text8"
+            style="@style/JapaneseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="japanese text8"
+            android:visibility="invisible" />
+    </LinearLayout>
+</FrameLayout>

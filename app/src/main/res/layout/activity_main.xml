@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ad_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:orientation="vertical"></LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ad_wrapper">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/help_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/help_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/del_trans"
+                android:gravity="center"
+                android:text="@string/swipe_page"
+                android:textColor="@android:color/transparent"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/del_trans"
+                android:layout_width="107dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="@string/del_trans"
+                android:textColor="@android:color/transparent"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/add_trans"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/del_trans"
+                android:gravity="center"
+                android:text="@string/add_trans"
+                android:textColor="@android:color/transparent"
+                android:textSize="21sp" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

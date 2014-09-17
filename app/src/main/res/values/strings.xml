@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EjAlice</string>
+    <string name="admob_id">ca-app-pub-4623298212622664/5429207438</string>
+    <string name="swipe_page">←スワイプ：次ページ\n→スワイプ：前ページ\n\n\n\n\n\n\nTap to START</string>
+    <string name="del_trans">訳消す</string>
+    <string name="add_trans">訳出す</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="send">送信</string>
+    <string name="err_dialog_title">エラー報告</string>
+    <string name="err_dialog_msg">前回は、エラーで終了してしまい、大変申し訳ありません。今後の改善に役立てますので、開発元にエラーを送っていただけると大変助かります。プライバシーに関する情報は送信されません</string>
+    <string name="err_dialog_msg2">大変申し訳ありません。予期せぬエラーが発生しました。今後の改善に役立てますので、開発元にエラーを送っていただけると大変助かります。プライバシーに関する情報は送信されません</string>
+</resources>
